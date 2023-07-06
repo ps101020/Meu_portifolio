@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  
+</style>
+
+
+<body>
+    <header>
+        <!-- codigo para caracteries especiais &#9776; icone de menu -->
+        <a class="abrir" onclick="abrirMenu()" href="#"><strong>&#9776;</strong> </a> <div="cnt1"> <img src="title.png" class="ttl">
+ </div>   </header>
+    <nav class="menu">
+      <a id="fechar" onclick="fecharMenu()" href="#">❌️</a>
+      <a href="index.html">Home</a>
+          <a href="anim.html">Animações2D</a>
+           <a href="i.html">Ilustrações</a>  
+      <a href=https:"//www.youtube.com/@PS_Animanga">YouTube</a>
+      <a href="https://s.kwai.app/f/jMp434eN">Kwai</a>
+      <a href="      https://instagram.com/_ps_cordovil_?igshid=ZDdkNTZiNTM=">Instagram</a>  
+    </nav>
+ 
+    <main>
+        <h3>ILUSTRAÇÕES</h3>
+        <hr>
+    
+    <div style="display:inline-block; background-color:black; justify-content:center; align-items:center;">
+        
+          <img class="capas" id="c1" src="IMG_20230706_124110_(600_x_900_pixel).jpg" alt="">
+         
+      <img class="capas" id="c2" src="IMG_20230706_124201_(600_x_900_pixel).png" alt="">
+          <img class="capas"  id="c3" src="IMG_20230706_124451_(600_x_900_pixel).png" alt="">
+          <img class="capas" id="c4" src="IMG_20230706_124350_(600_x_900_pixel).png" alt="">
+            <img class="capas"  id="c5" src="IMG_20230706_124429_(600_x_900_pixel).png" alt="">
+    <img class="capas"  id="c6" src="IMG_20230706_134746_(600_x_900_pixel).jpg" alt="">
+   
+    </div>
+    <hr>
+    
+<center>
+   <span margin="20px" padding="20px"><button onclick="btn1()">ORÇAMENTO GRÁTIS</button><button onclick="btn2()">CATÁLOGO DE PORTIFÓLIOS</button></span>
+    </main>
+ 
+    </center>
+    <footer>
+           <img src="myimg.png" alt="avatar"><br>
+  
+  <div style="display:inline-block;">
+      
+            <p>  📧  emai e-mail: ps2021022@gmail.com 📧   
+            </p>
+      
+  </div>
+              
+    </footer>
+    <script>
+        
+        function abrirMenu() {
+       document.querySelector("nav").style="width:200px;"; document.querySelector("main").style="margin-left: 200px;";
+       
+   
+        }
+        
+        function fecharMenu() {
+       document.querySelector("nav").style="width=0;";
+       document.querySelector("main").style="margin-left:0;";
+      
+        
+        }
+        
+        function btn1() {
+           location.href="https://api.whatsapp.com/send?phone=559184992536";
+        
+        }
+        
+        function btn2() {
+      let v =  confirm("no momento estamos trabalhando em nosso catálogo.")
+          
+          if(v == true) {
+           location.href="https://api.whatsapp.com/send?phone=559184992536";   
+          }
+            
+        }          
+        
+        
+        //click
+        
+        let c1 = document.querySelector("#c1");
+        
+    c1.addEventListener("click",()=>{location.href="https://drive.google.com/file/d/1BOX--rVE56J8StP5_oHVrGBqtOGmTf8C/view?usp=drivesdk"})
+    
+       let c2 = document.querySelector("#c2");
+        
+    c2.addEventListener("click",()=>{alert("a senha para ler este web tom é 0101");
+        location.href="https://drive.google.com/file/d/10XMbDNQA9WUaKbEprGXC2UqyBiVgDk2X/view?usp=drivesdk"})
+        
+        
+         let c3 = document.querySelector("#c3");
+        
+    c3.addEventListener("click",()=>{location.href="https://drive.google.com/file/d/17CwhqyGoqbFbJyKJRdkBTp-Ne2X-vQgR/view?usp=drivesdk"})
+    
+      
+         let c4 = document.querySelector("#c4");
+        
+    c4.addEventListener("click",()=>{location.href="https://drive.google.com/file/d/15n1QNeNdHMFzTyUlwQwgygCzcL6uR_yA/view?usp=drivesdk"})
+    
+       let c5 = document.querySelector("#c5");
+        
+    c5.addEventListener("click",()=>{location.href="https://drive.google.com/file/d/1By9N8sMXrKoGTgaNJoXYmCk824A66eYa/view?usp=drivesdk"})
+    
+        let c6 = document.querySelector("#c6");
+        
+    c6.addEventListener("click",()=>{location.href="https://drive.google.com/file/d/15dK5KQvBY145o60SMRVDINj57Jl_uI2A/view?usp=drivesdk"})
+        
+    </script>
+    
+</body>
+</html>
